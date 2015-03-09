@@ -10,7 +10,7 @@ public class DaoPatternDemo {
 
         //update student
         Student student =studentDao.getAllStudents().get(0);
-        student.setName("Michael");
+        student.setName("Deva");
         studentDao.updateStudent(student);
 
         //get the student
